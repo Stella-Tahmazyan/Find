@@ -9,7 +9,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @Configuration
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+public class WebSecurityConfig
+        extends WebSecurityConfigurerAdapter {
 
   @Autowired
   private PasswordEncoder passwordEncoder;
