@@ -9,6 +9,7 @@ public class MainController {
     public String loginPage() {
 
         return "login";
+
     }
 
     @GetMapping("/home")
