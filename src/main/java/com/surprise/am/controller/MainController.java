@@ -7,7 +7,7 @@ public class MainController {
 
     @GetMapping(value = {"/login","/"})
     public String loginPage() {
-        return "login";//"jjjjjj";
+        return "login";//"jjjjjjffff";
 
     }
 
